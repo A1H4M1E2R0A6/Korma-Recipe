@@ -1,0 +1,19 @@
+
+.body {
+    display: flex;
+    flex-direction: column;
+}
+.header {
+    display: flex;
+     justify-content: space-between;
+      background-color: #1f0202;
+padding: 0px;
+align-items: center;}
+.nav>ul {
+    display: flex;
+    color: white;
+    column-gap: 3em;
+}
+nav>ul>li {
+    list-style: none;
+    margin: 1em;}
